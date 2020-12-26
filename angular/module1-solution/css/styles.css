@@ -1,0 +1,5 @@
+.message { font-size: 1.3em; font-weight: bold; }
+.message.fine { color: green }
+.message.error { color: red }
+#lunch-menu.error { border: 1px solid red }
+#lunch-menu.fine { border: 1px solid green }

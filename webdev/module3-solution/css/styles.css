@@ -1,0 +1,116 @@
+/** HEADER **/
+#header-nav {
+    background-color: #999999;
+    border-radius: 0;
+    border: 1px solid #000000;
+  }
+  
+  .navbar-brand {
+    padding-top: 25px;
+  }
+  
+  .navbar-brand h1 { /* Restaurant name */
+    font-family: 'Lora', serif;
+    color: #000000;
+    font-size: 1.5em;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px #222;
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: .10;
+  }
+
+  .navbar-brand a:hover, .navbar-brand a:focus {
+    text-decoration: none;
+  }
+
+  #nav-list {
+    margin: 0 -15px 0;
+    background-color: #FFFFFF;
+  }
+
+  #nav-list li {
+    border: 1px solid #000000;
+  }
+
+  #nav-list a {
+    color: #000000;
+    text-align: center;
+    font-size:18px;
+  }
+  
+  #nav-list a:hover {
+    background: #E7E7E7;
+    font-weight:bold;
+  }
+ 
+  .navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+    border: 1px solid #000000;
+  }
+ 
+  /* END HEADER */
+
+
+  /** MAIN **/
+
+  #main-content h2{
+    margin-bottom:30px;
+  }
+
+  #home-tiles h3{
+    color:#000000;
+    font-weight:bold;
+    font-size: 1.6em;
+  }
+  
+  #chicken-tile, #beef-tile, #sushi-tile{ 
+  background-color:#999999;
+  padding:5px 10px 5px 10px;   
+  margin-bottom:20px;
+}
+
+  /** END MAIN **/
+
+
+
+  /********** Large devices only **********/
+  @media (min-width: 1200px) {
+
+  
+  }
+  
+  /********** Medium devices only **********/
+  @media (min-width: 992px) and (max-width: 1199px) {
+
+  }
+  
+  /********** Small devices only **********/
+  @media (min-width: 768px) and (max-width: 991px) {
+    
+    #sushi {
+      width:100%!important;
+    }
+
+  }
+  
+  /********** Extra small devices only **********/
+  @media (max-width: 767px) {
+    /* Header */
+    .navbar-brand {
+        padding-top: 10px;
+        height: 50px;
+      }
+      .navbar-brand h1 { /* Restaurant name */
+        padding-top: 10px;
+        font-size: 4vw; /* 1vw = 1% of viewport width */
+      }
+        /* End Header */
+
+
+  }
+  
+  
+  /********** Super Extra small devices only **********/
+  @media (max-width: 479px) {
+
+  }
